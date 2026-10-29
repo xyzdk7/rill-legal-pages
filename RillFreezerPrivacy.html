@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rill Freezer Privacy Notice</title>
+<style>
+  :root {
+    --ink: #0F1D24;
+    --ink-soft: #4E6672;
+    --paper: #F7F5EC;
+    --rail: #FFFFFF;
+    --brand: #0F4C46;
+    --brand-soft: #DCEEF0;
+    --ice: #E7F2F6;
+    --line: #CBD8DE;
+    --danger: #A33A2E;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 500px at 12% -10%, #EAF4F5 0%, rgba(234,244,245,0) 62%),
+      linear-gradient(180deg, #F7F5EC 0%, #F1EFE4 100%);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.66;
+    -webkit-text-size-adjust: 100%;
+  }
+  .hold { max-width: 720px; margin: 0 auto; padding: 26px 18px 60px; }
+  .tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--brand);
+    border: 1px solid var(--line);
+    background: var(--rail);
+    border-radius: 999px;
+    padding: 6px 12px;
+  }
+  h1 {
+    font-size: clamp(1.6rem, 6vw, 2rem);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 16px 0 10px;
+  }
+  .shelf-note {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    margin: 0 0 18px;
+  }
+  .band {
+    background: var(--brand);
+    color: #F2FAF9;
+    border-radius: 16px;
+    padding: 18px 18px 20px;
+    margin: 0 0 24px;
+  }
+  .band strong { color: #FFFFFF; }
+  .band p { margin: 8px 0 0; font-size: 0.95rem; }
+  .rail {
+    background: var(--rail);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--brand);
+    border-radius: 14px;
+    padding: 16px 16px 6px;
+    margin: 0 0 14px;
+  }
+  .rail h2 {
+    font-size: 1.02rem;
+    letter-spacing: 0.01em;
+    margin: 0 0 8px;
+    color: var(--brand);
+  }
+  .rail p { margin: 0 0 10px; }
+  .rail p:last-child { margin-bottom: 12px; }
+  ul { margin: 0 0 12px; padding-left: 1.15rem; }
+  li { margin-bottom: 6px; }
+  .ice {
+    background: var(--ice);
+    border-left-color: var(--line);
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 0.94rem;
+    color: var(--ink-soft);
+    margin: 0 0 22px;
+  }
+  .ice strong { color: var(--ink); }
+  .foot {
+    border-top: 1px solid var(--line);
+    margin-top: 8px;
+    padding-top: 16px;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+  }
+  a { color: var(--brand); text-decoration: underline; word-break: break-word; }
+  @media (max-width: 360px) {
+    body { font-size: 15px; }
+    .hold { padding: 20px 14px 48px; }
+    .rail { padding: 14px 13px 4px; }
+  }
+</style>
+</head>
+<body>
+<div class="hold">
+  <span class="tag">Freezer record privacy</span>
+  <h1>What stays inside your freezer log</h1>
+  <p class="shelf-note">Effective 30 October 2026 &middot; Applies to the Rill iOS application.</p>
+
+  <div class="band">
+    <strong>Rill is a local notebook for frozen food.</strong>
+    <p>You record batches, quantities and stored dates, then take stock oldest first. All of it is written to this device. Rill has no account system, no server and no network calls of its own, so the developer never receives your inventory or history.</p>
+  </div>
+
+  <div class="rail">
+    <h2>Who reads this notice</h2>
+    <p>This notice explains what the Rill app does with information when you install and use it. Rill is published as a standalone iOS application. There is no sign-up, no profile, and no cross-device sync, because none of those features exist in this build.</p>
+  </div>
+
+  <div class="rail">
+    <h2>The shelves you fill yourself</h2>
+    <p>Everything below is created by you inside the app and remains under your control:</p>
+    <ul>
+      <li>Item names and the units you choose, such as bags, packs or trays.</li>
+      <li>Batch quantities, stored dates, and an optional location such as a drawer or basket.</li>
+      <li>Each take-out record, including when quantities changed and which batch they came from.</li>
+      <li>An undo history that lets you reverse the most recent take-out while the stock is unchanged.</li>
+    </ul>
+    <p>These entries are kept in a single local data file that the app reads on launch and rewrites when you save a change.</p>
+  </div>
+
+  <div class="rail">
+    <h2>No transmission, no audience</h2>
+    <p>Rill does not send inventory, history or diagnostic content to the developer or to any third party. The app ships without an analytics SDK, an advertising SDK, a crash-reporting service, a remote model, or any key that would allow the app to transmit data. There is no tracking permission to grant because nothing is tracked.</p>
+    <p>Article text, unit labels and screen copy are compiled into the app. They are not fetched from a web service.</p>
+  </div>
+
+  <div class="rail">
+    <h2>Device backups are the system's call</h2>
+    <p>If your iPhone is configured to back up app data, the operating system may include Rill's local data file in an iCloud or computer backup. That behaviour belongs to iOS and its backup settings, not to Rill. You can review or turn off backups in the system settings for your device.</p>
+  </div>
+
+  <div class="rail">
+    <h2>Deleting, resetting and uninstalling</h2>
+    <p>Removing a batch removes its remaining quantity from inventory while its take-out history stays readable. If local data cannot be read at launch, the app offers a reset that requires confirmation and clears inventory and history on this device. Deleting the app from your iPhone removes its local data as well. Because the developer holds no copy, nothing needs to be requested from us afterwards.</p>
+  </div>
+
+  <div class="rail">
+    <h2>No permissions are asked for</h2>
+    <p>Rill does not request the camera, the photo library, the microphone, speech recognition, contacts, location, or tracking authorization. Batch entries are typed or set with date pickers inside the app, so there is no media capture and no microphone use to describe.</p>
+  </div>
+
+  <div class="rail">
+    <h2>Children and younger cooks</h2>
+    <p>Rill is a kitchen utility suitable for general audiences. It is not directed at children and it does not knowingly collect information from anyone, because it collects nothing. A parent or guardian supervising a household freezer is free to let a younger family member record batches on the same device.</p>
+  </div>
+
+  <div class="rail">
+    <h2>Safety notes about the dates you type</h2>
+    <p>A stored date is a record of when a batch went into the freezer. It is not an expiry date, and Rill does not estimate shelf life, judge food safety, or issue warnings about what is still edible. Decisions about whether food is safe remain yours, based on your own handling and storage practices.</p>
+  </div>
+
+  <div class="rail">
+    <h2>Changes to this notice</h2>
+    <p>If a future version of Rill adds a feature that changes how information is handled, this notice will be updated before that version is released, and the effective date above will move. The version you are reading describes the build you are using today: a local record book with no outbound data flow.</p>
+  </div>
+
+  <div class="ice">
+    <strong>Questions about this notice.</strong> Write to <a href="mailto:batches@rillfreezerbay.com">batches@rillfreezerbay.com</a>. Because Rill stores nothing on a server, we cannot look up, export or delete an individual user's records for you; those records live only on your device and are managed from the app itself.
+  </div>
+
+  <div class="foot">
+    <p>Rill &middot; freezer batch records &middot; privacy notice effective 30 October 2026.</p>
+  </div>
+</div>
+</body>
+</html>
